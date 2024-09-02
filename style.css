@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+.profile{
+    display:flex;
+    align-items: center;
+
+}
+.profile-img{
+    width:100px;
+    height:100px;
+   border-radius:50%;
+   margin-right: 20px;
+   object-fit: covers;
+   cursor:pointer;
+   transition: transform 0.3s ease-in-out;
+   position: relative;
+   z-index: 1;
+
+
+
+}
+.profile-img.enlarged {
+    transform: scale(3);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    
+}
+.profile-info{
+    text-align: left;
+
+}
+.summary h4{
+    text-decoration-line:underline;
+}
+.education h4{
+    text-decoration-line:underline;
+
+}
+
+.edu-table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse borders to avoid double borders */
+  
+}
+.techskills h4,h5{
+    text-decoration-line:underline;
+
+}
+.techskills marquee{
+    color:red;
+}
+.softskill h4{
+    text-decoration-line:underline;
+
+}
+.projects h4{
+    text-decoration-line:underline;
+
+}
+.personaldetails h4{
+    text-decoration-line:underline;
+
+}
+
+
+
+    
+
+
+
+  
